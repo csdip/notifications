@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6,strong,b{
 
 .notification__top h1 {
 	font-size: 24px;
-	color: var(--Blue);
+	color: var(--Very-dark-grayish-blue);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -158,6 +158,10 @@ h1,h2,h3,h4,h5,h6,strong,b{
 	height: 8px;
 	border-radius: 8px;
 	background-color: var(--Red);
+}
+
+.not--read.remove{
+    display: none;
 }
 
 
