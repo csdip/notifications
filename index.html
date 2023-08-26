@@ -73,6 +73,16 @@
         </div>
     </main>
   
+<script type="text/javascript">
+    const allReadBtn = document.querySelector('.markallasread')
+    const notReadNotifications = document.querySelectorAll('.not--read')
 
+    notReadNotifications.forEach(element => {
+        allReadBtn.addEventListener('click', ()=>{
+            element.classList.add('remove')
+            console.log(notReadNotifications)
+        })
+    });
+</script>
 </body>
 </html>
